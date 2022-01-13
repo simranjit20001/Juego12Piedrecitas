@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Thini_12" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Thini_12" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Thini_12" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Pantalla.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Pantalla.h" />
+		<Unit filename="conjunto_movimientos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conjunto_movimientos.h" />
+		<Unit filename="grafico.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="grafico.h" />
+		<Unit filename="imagenes/IA3.bmp" />
+		<Unit filename="imagenes/IA4.bmp" />
+		<Unit filename="imagenes/IA5.bmp" />
+		<Unit filename="imagenes/IA6.bmp" />
+		<Unit filename="imagenes/IA_bebe.bmp" />
+		<Unit filename="imagenes/IA_bebe2.bmp" />
+		<Unit filename="imagenes/ficha_selecionada.bmp" />
+		<Unit filename="imagenes/fichas_azules.bmp" />
+		<Unit filename="imagenes/fichas_rojas.bmp" />
+		<Unit filename="imagenes/ganador_rojo.bmp" />
+		<Unit filename="imagenes/manual_0.bmp" />
+		<Unit filename="imagenes/manual_1.bmp" />
+		<Unit filename="imagenes/manual_10.bmp" />
+		<Unit filename="imagenes/manual_2.bmp" />
+		<Unit filename="imagenes/manual_3.bmp" />
+		<Unit filename="imagenes/manual_4.bmp" />
+		<Unit filename="imagenes/manual_5.bmp" />
+		<Unit filename="imagenes/manual_6.bmp" />
+		<Unit filename="imagenes/manual_7.bmp" />
+		<Unit filename="imagenes/manual_8.bmp" />
+		<Unit filename="imagenes/manual_9.bmp" />
+		<Unit filename="imagenes/mov_posible_azul.bmp" />
+		<Unit filename="imagenes/mov_posible_rojo.bmp" />
+		<Unit filename="imagenes/tablero_sin_espacio.bmp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="minimax.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="minimax.h" />
+		<Unit filename="pila.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pila.h" />
+		<Unit filename="pizarra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pizarra.h" />
+		<Unit filename="reglas_movimiento.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="reglas_movimiento.h" />
+		<Unit filename="tablero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tablero.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

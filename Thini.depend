@@ -1,0 +1,257 @@
+# depslib dependency file v1.0
+1637689593 source:c:\users\johal\desktop\thini_12\analizamovimiento.c
+	"analizaMovimiento.h"
+
+1637657701 c:\users\johal\desktop\thini_12\analizamovimiento.h
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"reglas_movimiento.h"
+
+1641428454 c:\users\johal\desktop\thini_12\tablero.h
+	<stdio.h>
+	<stdlib.h>
+	"math.h"
+	"Pantalla.h"
+
+1640101266 c:\users\johal\desktop\thini_12\conjunto_movimientos.h
+	"tablero.h"
+	"pila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1641309789 c:\users\johal\desktop\thini_12\pila.h
+	"tablero.h"
+
+1641307196 c:\users\johal\desktop\thini_12\reglas_movimiento.h
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"pila.h"
+	"minimax.h"
+
+1641312034 source:c:\users\johal\desktop\thini_12\conjunto_movimientos.c
+	"conjunto_movimientos.h"
+
+1641519008 source:c:\users\johal\desktop\thini_12\grafico.c
+	"grafico.h"
+
+1641307377 c:\users\johal\desktop\thini_12\grafico.h
+	<stdio.h>
+	<stdlib.h>
+	"tablero.h"
+	"Pantalla.h"
+	"conjunto_movimientos.h"
+
+1640101266 c:\users\johal\desktop\thini_12\pantalla.h
+	"SDL2/SDL.h"
+
+1637678965 source:c:\users\johal\desktop\thini_12\listaenlazada.c
+
+1641520529 source:c:\users\johal\desktop\thini_12\main.c
+	<stdio.h>
+	"Pantalla.h"
+	<windows.h>
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"reglas_movimiento.h"
+	"grafico.h"
+	"pila.h"
+	"pizarra.h"
+
+1640101266 source:c:\users\johal\desktop\thini_12\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1641423698 source:c:\users\johal\desktop\thini_12\pila.c
+	"Pila.h"
+	<stdlib.h>
+	<assert.h>
+
+1641312019 source:c:\users\johal\desktop\thini_12\reglas_movimiento.c
+	<stdio.h>
+	<stdlib.h>
+	"reglas_movimiento.h"
+
+1641517024 source:c:\users\johal\desktop\thini_12\tablero.c
+	"tablero.h"
+	"assert.h"
+
+1640101266 c:\users\johal\desktop\thini_12\minimax.h
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"reglas_movimiento.h"
+
+1640101266 source:c:\users\johal\desktop\thini_12\minimax.c
+	"minimax.h"
+
+1637740378 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\conjunto_movimientos.c
+	"conjunto_movimientos.h"
+
+1637680388 c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\conjunto_movimientos.h
+	"tablero.h"
+	"pila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1636682254 c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\tablero.h
+
+1637583983 c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\pila.h
+	"tablero.h"
+
+1637705312 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\grafico.c
+	"grafico.h"
+
+1637705360 c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\grafico.h
+	<stdio.h>
+	<stdlib.h>
+	"tablero.h"
+	"Pantalla.h"
+	"conjunto_movimientos.h"
+
+1626243959 c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\pantalla.h
+	"SDL2/SDL.h"
+
+1637739962 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\main.c
+	<stdio.h>
+	"Pantalla.h"
+	<windows.h>
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"reglas_movimiento.h"
+	"grafico.h"
+	"pila.h"
+
+1637704529 c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\reglas_movimiento.h
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"pila.h"
+	"minimax.h"
+
+1637704578 c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\minimax.h
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"reglas_movimiento.h"
+
+1637704591 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\minimax.c
+	"minimax.h"
+
+1626116246 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1631521724 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\pila.c
+	"Pila.h"
+	<stdlib.h>
+	<assert.h>
+
+1640100646 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\reglas_movimiento.c
+	<stdio.h>
+	<stdlib.h>
+	"reglas_movimiento.h"
+
+1637742065 source:c:\users\johal\desktop\escritorioantiguo\escritorioultimo\thini_12\tablero.c
+	<stdio.h>
+	<stdlib.h>
+	"math.h"
+	"tablero.h"
+	"Pantalla.h"
+
+1641425841 c:\users\johal\desktop\thini_12\pizarra.h
+	"stdio.h"
+	"Pantalla.h"
+
+1641525058 source:c:\users\johal\desktop\thini_12\pizarra.c
+	"pizarra.h"
+	<stdlib.h>
+	<assert.h>
+
+1641912418 source:c:\users\johal\desktop\thini_12 - copia\conjunto_movimientos.c
+	"conjunto_movimientos.h"
+	<assert.h>
+
+1641924855 c:\users\johal\desktop\thini_12 - copia\conjunto_movimientos.h
+	"tablero.h"
+	<stdio.h>
+	<stdlib.h>
+
+1641701108 c:\users\johal\desktop\thini_12 - copia\tablero.h
+	<stdio.h>
+	<stdlib.h>
+	"math.h"
+	"Pantalla.h"
+
+1640101266 c:\users\johal\desktop\thini_12 - copia\pantalla.h
+	"SDL2/SDL.h"
+
+1641923414 c:\users\johal\desktop\thini_12 - copia\pila.h
+	"tablero.h"
+
+1641845372 source:c:\users\johal\desktop\thini_12 - copia\grafico.c
+	"grafico.h"
+
+1641914881 c:\users\johal\desktop\thini_12 - copia\grafico.h
+	<stdio.h>
+	<stdlib.h>
+	"tablero.h"
+	"Pantalla.h"
+	"conjunto_movimientos.h"
+
+1641922472 source:c:\users\johal\desktop\thini_12 - copia\main.c
+	<stdio.h>
+	<windows.h>
+	"Pantalla.h"
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"reglas_movimiento.h"
+	"grafico.h"
+	"pila.h"
+	"pizarra.h"
+
+1641920420 c:\users\johal\desktop\thini_12 - copia\reglas_movimiento.h
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"minimax.h"
+
+1641915183 c:\users\johal\desktop\thini_12 - copia\minimax.h
+	"tablero.h"
+	"conjunto_movimientos.h"
+	"reglas_movimiento.h"
+
+1641923754 c:\users\johal\desktop\thini_12 - copia\pizarra.h
+	"stdio.h"
+	"Pantalla.h"
+
+1641909264 source:c:\users\johal\desktop\thini_12 - copia\minimax.c
+	"minimax.h"
+
+1640101266 source:c:\users\johal\desktop\thini_12 - copia\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1641526839 source:c:\users\johal\desktop\thini_12 - copia\pila.c
+	"Pila.h"
+	<stdlib.h>
+	<assert.h>
+
+1641912896 source:c:\users\johal\desktop\thini_12 - copia\reglas_movimiento.c
+	<stdio.h>
+	<stdlib.h>
+	"reglas_movimiento.h"
+
+1641845322 source:c:\users\johal\desktop\thini_12 - copia\tablero.c
+	"tablero.h"
+	<assert.h>
+
+1641659759 source:c:\users\johal\desktop\thini_12 - copia\pizarra.c
+	"pizarra.h"
+	<stdlib.h>
+	<assert.h>
+
