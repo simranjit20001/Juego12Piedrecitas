@@ -131,7 +131,7 @@ Tablero tableroModificar(Tablero tab_inicial, int x_inicial, int y_inicial, int 
 {
     assert(tab_inicial != NULL);
 
-    //Dado de que se trata de un objeto inmutable debemos crear una copia del tablero original antes de modificarlo
+    //Dado de que se trata de una operacion inmutable debemos crear una copia del tablero original antes de modificarlo
     Tablero tab = tableroObtenerCopia(tab_inicial);
     tab -> tablero[x_final][y_final] = tab->tablero[x_inicial][y_inicial];         //movemos la ficha de la posicion original a la final
     tab -> tablero[x_inicial][y_inicial] = NONE;                                 //la posicion inicial queda libre
@@ -154,8 +154,7 @@ Tablero tableroModificar(Tablero tab_inicial, int x_inicial, int y_inicial, int 
     tableroCambiarTurno(tab);
 
     return tab;
-}
-
+} // [ACTUALIZAR:] Esta operacion rebaja rendimiento y deberia haber una alternativa "mutable". Eso implicaria guardar las fichas eliminadas en el movimiento para facilitar deshacerlo con minimax. 
 
 
 void tableroDibujar(Tablero t)
